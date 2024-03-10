@@ -13,6 +13,7 @@ To run locally:
 ```
 $ wget https://github.com/chartjs/Chart.js/releases/download/v4.4.2/chart.js-4.4.2.tgz
 $ tar -xzf chart.js-4.4.2.tgz
+$ mv package chartjs
 $ npm install -g typescript
 $ tsc --module es2022 data_processing.ts
 ```
