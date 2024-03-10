@@ -1,5 +1,705 @@
 export const tracks = [
   {
+    "artist": "Doja Cat",
+    "pollyear": 2024,
+    "track": "Paint The Town Red",
+    "position": 1,
+    "alltime": false
+  },
+  {
+    "artist": "G Flip",
+    "pollyear": 2024,
+    "track": "The Worst Person Alive",
+    "position": 2,
+    "alltime": false
+  },
+  {
+    "artist": "Dom Dolla",
+    "pollyear": 2024,
+    "track": "Saving Up",
+    "position": 3,
+    "alltime": false
+  },
+  {
+    "artist": "MK & Dom Dolla",
+    "pollyear": 2024,
+    "track": "Rhyme Dust",
+    "position": 4,
+    "alltime": false
+  },
+  {
+    "artist": "cassö x RAYE x D-Block Europe",
+    "pollyear": 2024,
+    "track": "Prada",
+    "position": 5,
+    "alltime": false
+  },
+  {
+    "artist": "Fred again.. & Obongjayar",
+    "pollyear": 2024,
+    "track": "adore u",
+    "position": 6,
+    "alltime": false
+  },
+  {
+    "artist": "Billie Eilish",
+    "pollyear": 2024,
+    "track": "What Was I Made For?",
+    "position": 7,
+    "alltime": false
+  },
+  {
+    "artist": "Troye Sivan",
+    "pollyear": 2024,
+    "track": "Rush",
+    "position": 8,
+    "alltime": false
+  },
+  {
+    "artist": "Jack Harlow",
+    "pollyear": 2024,
+    "track": "Lovin On Me",
+    "position": 9,
+    "alltime": false
+  },
+  {
+    "artist": "Post Malone",
+    "pollyear": 2024,
+    "track": "Chemical",
+    "position": 10,
+    "alltime": false
+  },
+  {
+    "artist": "Olivia Rodrigo",
+    "pollyear": 2024,
+    "track": "vampire",
+    "position": 11,
+    "alltime": false
+  },
+  {
+    "artist": "Skrillex, Fred Again.. & Flowdan",
+    "pollyear": 2024,
+    "track": "Rumble",
+    "position": 12,
+    "alltime": false
+  },
+  {
+    "artist": "SZA",
+    "pollyear": 2024,
+    "track": "Kill Bill",
+    "position": 13,
+    "alltime": false
+  },
+  {
+    "artist": "FISHER x Kita Alexander",
+    "pollyear": 2024,
+    "track": "Atmosphere",
+    "position": 14,
+    "alltime": false
+  },
+  {
+    "artist": "Peggy Gou",
+    "pollyear": 2024,
+    "track": "(It Goes Like) Nanana",
+    "position": 15,
+    "alltime": false
+  },
+  {
+    "artist": "Dave & Central Cee",
+    "pollyear": 2024,
+    "track": "Sprinter",
+    "position": 16,
+    "alltime": false
+  },
+  {
+    "artist": "Jungle",
+    "pollyear": 2024,
+    "track": "Back On 74",
+    "position": 17,
+    "alltime": false
+  },
+  {
+    "artist": "Dom Dolla & Nelly Furtado",
+    "pollyear": 2024,
+    "track": "Eat Your Man",
+    "position": 18,
+    "alltime": false
+  },
+  {
+    "artist": "Budjerah",
+    "pollyear": 2024,
+    "track": "Therapy",
+    "position": 19,
+    "alltime": false
+  },
+  {
+    "artist": "Spacey Jane",
+    "pollyear": 2024,
+    "track": "Sorry Instead",
+    "position": 20,
+    "alltime": false
+  },
+  {
+    "artist": "Tate McRae",
+    "pollyear": 2024,
+    "track": "greedy",
+    "position": 21,
+    "alltime": false
+  },
+  {
+    "artist": "G Flip",
+    "pollyear": 2024,
+    "track": "Be Your Man",
+    "position": 22,
+    "alltime": false
+  },
+  {
+    "artist": "FISHER x Aatig",
+    "pollyear": 2024,
+    "track": "Take It Off",
+    "position": 23,
+    "alltime": false
+  },
+  {
+    "artist": "G Flip",
+    "pollyear": 2024,
+    "track": "Good Enough",
+    "position": 24,
+    "alltime": false
+  },
+  {
+    "artist": "Drake",
+    "pollyear": 2024,
+    "track": "Rich Baby Daddy [Ft. Sexyy Red/SZA]",
+    "position": 25,
+    "alltime": false
+  },
+  {
+    "artist": "G Flip",
+    "pollyear": 2024,
+    "track": "Rough",
+    "position": 26,
+    "alltime": false
+  },
+  {
+    "artist": "Lime Cordiale",
+    "pollyear": 2024,
+    "track": "Imposter Syndrome",
+    "position": 27,
+    "alltime": false
+  },
+  {
+    "artist": "Dua Lipa",
+    "pollyear": 2024,
+    "track": "Dance The Night",
+    "position": 28,
+    "alltime": false
+  },
+  {
+    "artist": "Lana Del Rey",
+    "pollyear": 2024,
+    "track": "Say Yes To Heaven",
+    "position": 29,
+    "alltime": false
+  },
+  {
+    "artist": "boygenius",
+    "pollyear": 2024,
+    "track": "Not Strong Enough",
+    "position": 30,
+    "alltime": false
+  },
+  {
+    "artist": "Troye Sivan",
+    "pollyear": 2024,
+    "track": "One Of Your Girls",
+    "position": 31,
+    "alltime": false
+  },
+  {
+    "artist": "Olivia Rodrigo",
+    "pollyear": 2024,
+    "track": "bad idea right?",
+    "position": 32,
+    "alltime": false
+  },
+  {
+    "artist": "Troye Sivan",
+    "pollyear": 2024,
+    "track": "Got Me Started",
+    "position": 33,
+    "alltime": false
+  },
+  {
+    "artist": "Olivia Rodrigo",
+    "pollyear": 2024,
+    "track": "get him back!",
+    "position": 34,
+    "alltime": false
+  },
+  {
+    "artist": "Fred again.. x Skrillex x Four Tet",
+    "pollyear": 2024,
+    "track": "Baby again..",
+    "position": 35,
+    "alltime": false
+  },
+  {
+    "artist": "PinkPantheress & Ice Spice",
+    "pollyear": 2024,
+    "track": "Boy's a liar Pt.2",
+    "position": 36,
+    "alltime": false
+  },
+  {
+    "artist": "Hilltop Hoods",
+    "pollyear": 2024,
+    "track": "Laced Up",
+    "position": 37,
+    "alltime": false
+  },
+  {
+    "artist": "The Rions",
+    "pollyear": 2024,
+    "track": "Minivan",
+    "position": 38,
+    "alltime": false
+  },
+  {
+    "artist": "BENEE",
+    "pollyear": 2024,
+    "track": "Green Honda",
+    "position": 39,
+    "alltime": false
+  },
+  {
+    "artist": "The Rions",
+    "pollyear": 2024,
+    "track": "Scary Movies",
+    "position": 40,
+    "alltime": false
+  },
+  {
+    "artist": "Dua Lipa",
+    "pollyear": 2024,
+    "track": "Houdini",
+    "position": 41,
+    "alltime": false
+  },
+  {
+    "artist": "Lime Cordiale",
+    "pollyear": 2024,
+    "track": "Pedestal",
+    "position": 42,
+    "alltime": false
+  },
+  {
+    "artist": "The Weeknd, Playboy Carti & Madonna",
+    "pollyear": 2024,
+    "track": "Popular",
+    "position": 43,
+    "alltime": false
+  },
+  {
+    "artist": "Mitski",
+    "pollyear": 2024,
+    "track": "My Love Mine All Mine",
+    "position": 44,
+    "alltime": false
+  },
+  {
+    "artist": "Hockey Dad",
+    "pollyear": 2024,
+    "track": "Still Have Room",
+    "position": 45,
+    "alltime": false
+  },
+  {
+    "artist": "Kenya Grace",
+    "pollyear": 2024,
+    "track": "Strangers",
+    "position": 46,
+    "alltime": false
+  },
+  {
+    "artist": "Old Mervs",
+    "pollyear": 2024,
+    "track": "Sweetheart",
+    "position": 47,
+    "alltime": false
+  },
+  {
+    "artist": "Kylie Minogue",
+    "pollyear": 2024,
+    "track": "Padam Padam",
+    "position": 48,
+    "alltime": false
+  },
+  {
+    "artist": "Doja Cat",
+    "pollyear": 2024,
+    "track": "Agora Hills",
+    "position": 49,
+    "alltime": false
+  },
+  {
+    "artist": "G Flip",
+    "pollyear": 2024,
+    "track": "Australia",
+    "position": 50,
+    "alltime": false
+  },
+  {
+    "artist": "Fred again.. & Jozzy",
+    "pollyear": 2024,
+    "track": "ten",
+    "position": 51,
+    "alltime": false
+  },
+  {
+    "artist": "Teen Jesus and the Jean Teasers",
+    "pollyear": 2024,
+    "track": "I Used To Be Fun",
+    "position": 52,
+    "alltime": false
+  },
+  {
+    "artist": "King Stingray",
+    "pollyear": 2024,
+    "track": "Lookin' Out",
+    "position": 53,
+    "alltime": false
+  },
+  {
+    "artist": "blink-182",
+    "pollyear": 2024,
+    "track": "MORE THAN YOU KNOW",
+    "position": 54,
+    "alltime": false
+  },
+  {
+    "artist": "Thelma Plum",
+    "pollyear": 2024,
+    "track": "We Don't Talk About It",
+    "position": 55,
+    "alltime": false
+  },
+  {
+    "artist": "Olivia Rodrigo",
+    "pollyear": 2024,
+    "track": "all-american bitch",
+    "position": 56,
+    "alltime": false
+  },
+  {
+    "artist": "Bring Me The Horizon",
+    "pollyear": 2024,
+    "track": "DArkSide",
+    "position": 57,
+    "alltime": false
+  },
+  {
+    "artist": "Bring Me The Horizon",
+    "pollyear": 2024,
+    "track": "LosT",
+    "position": 58,
+    "alltime": false
+  },
+  {
+    "artist": "Pacific Avenue",
+    "pollyear": 2024,
+    "track": "Spin Me Like Your Records",
+    "position": 59,
+    "alltime": false
+  },
+  {
+    "artist": "Lana Del Rey",
+    "pollyear": 2024,
+    "track": "A&W",
+    "position": 60,
+    "alltime": false
+  },
+  {
+    "artist": "The Kid LAROI",
+    "pollyear": 2024,
+    "track": "LOVE AGAIN",
+    "position": 61,
+    "alltime": false
+  },
+  {
+    "artist": "Tyler, The Creator",
+    "pollyear": 2024,
+    "track": "DOGTOOTH",
+    "position": 62,
+    "alltime": false
+  },
+  {
+    "artist": "Peach PRC",
+    "pollyear": 2024,
+    "track": "Perfect For You",
+    "position": 63,
+    "alltime": false
+  },
+  {
+    "artist": "Peking Duk",
+    "pollyear": 2024,
+    "track": "Fall At Your Feet [Ft. Julia Stone]",
+    "position": 64,
+    "alltime": false
+  },
+  {
+    "artist": "G Flip",
+    "pollyear": 2024,
+    "track": "Real Life",
+    "position": 65,
+    "alltime": false
+  },
+  {
+    "artist": "Nicki Minaj & Ice Spice",
+    "pollyear": 2024,
+    "track": "Barbie World (with Aqua)",
+    "position": 66,
+    "alltime": false
+  },
+  {
+    "artist": "Angie McMahon",
+    "pollyear": 2024,
+    "track": "Letting Go",
+    "position": 67,
+    "alltime": false
+  },
+  {
+    "artist": "Peach PRC",
+    "pollyear": 2024,
+    "track": "F U Goodbye",
+    "position": 68,
+    "alltime": false
+  },
+  {
+    "artist": "Genesis Owusu",
+    "pollyear": 2024,
+    "track": "Leaving The Light",
+    "position": 69,
+    "alltime": false
+  },
+  {
+    "artist": "SZA",
+    "pollyear": 2024,
+    "track": "Snooze",
+    "position": 70,
+    "alltime": false
+  },
+  {
+    "artist": "The Rions",
+    "pollyear": 2024,
+    "track": "Take What You Want",
+    "position": 71,
+    "alltime": false
+  },
+  {
+    "artist": "DICE",
+    "pollyear": 2024,
+    "track": "Stockholm",
+    "position": 72,
+    "alltime": false
+  },
+  {
+    "artist": "Tyla",
+    "pollyear": 2024,
+    "track": "Water",
+    "position": 73,
+    "alltime": false
+  },
+  {
+    "artist": "Teenage Dads",
+    "pollyear": 2024,
+    "track": "Speedracer",
+    "position": 74,
+    "alltime": false
+  },
+  {
+    "artist": "SZA",
+    "pollyear": 2024,
+    "track": "Nobody Gets Me",
+    "position": 75,
+    "alltime": false
+  },
+  {
+    "artist": "Royel Otis",
+    "pollyear": 2024,
+    "track": "Sofa King",
+    "position": 76,
+    "alltime": false
+  },
+  {
+    "artist": "Ruel",
+    "pollyear": 2024,
+    "track": "I DON'T WANNA BE LIKE YOU",
+    "position": 77,
+    "alltime": false
+  },
+  {
+    "artist": "The Kid LAROI",
+    "pollyear": 2024,
+    "track": "BLEED",
+    "position": 78,
+    "alltime": false
+  },
+  {
+    "artist": "Teenage Dads",
+    "pollyear": 2024,
+    "track": "Video Killed The Radio Star",
+    "position": 79,
+    "alltime": false
+  },
+  {
+    "artist": "G Flip",
+    "pollyear": 2024,
+    "track": "7 Days",
+    "position": 80,
+    "alltime": false
+  },
+  {
+    "artist": "Peach PRC",
+    "pollyear": 2024,
+    "track": "Like A Girl Does",
+    "position": 81,
+    "alltime": false
+  },
+  {
+    "artist": "Tate McRae",
+    "pollyear": 2024,
+    "track": "exes",
+    "position": 82,
+    "alltime": false
+  },
+  {
+    "artist": "Sleep Token",
+    "pollyear": 2024,
+    "track": "The Summoning",
+    "position": 83,
+    "alltime": false
+  },
+  {
+    "artist": "The Jungle Giants",
+    "pollyear": 2024,
+    "track": "Trippin Up",
+    "position": 84,
+    "alltime": false
+  },
+  {
+    "artist": "beabadoobee",
+    "pollyear": 2024,
+    "track": "Glue Song",
+    "position": 85,
+    "alltime": false
+  },
+  {
+    "artist": "Labrinth",
+    "pollyear": 2024,
+    "track": "Never Felt So Alone",
+    "position": 86,
+    "alltime": false
+  },
+  {
+    "artist": "Skrillex & Boys Noize",
+    "pollyear": 2024,
+    "track": "Fine Day Anthem",
+    "position": 87,
+    "alltime": false
+  },
+  {
+    "artist": "Teenage Dads",
+    "pollyear": 2024,
+    "track": "Midnight Driving",
+    "position": 88,
+    "alltime": false
+  },
+  {
+    "artist": "The Last Dinner Party",
+    "pollyear": 2024,
+    "track": "Nothing Matters",
+    "position": 89,
+    "alltime": false
+  },
+  {
+    "artist": "Polaris",
+    "pollyear": 2024,
+    "track": "Nightmare",
+    "position": 90,
+    "alltime": false
+  },
+  {
+    "artist": "Lana Del Rey",
+    "pollyear": 2024,
+    "track": "Did you know that there's a tunnel under Ocean Blvd",
+    "position": 91,
+    "alltime": false
+  },
+  {
+    "artist": "Pacific Avenue",
+    "pollyear": 2024,
+    "track": "Strawberry Daydream",
+    "position": 92,
+    "alltime": false
+  },
+  {
+    "artist": "The Terrys",
+    "pollyear": 2024,
+    "track": "No Bad Days",
+    "position": 93,
+    "alltime": false
+  },
+  {
+    "artist": "MAY-A",
+    "pollyear": 2024,
+    "track": "Sweat You Out My System",
+    "position": 94,
+    "alltime": false
+  },
+  {
+    "artist": "Nothing But Thieves",
+    "pollyear": 2024,
+    "track": "Welcome to the DCC",
+    "position": 95,
+    "alltime": false
+  },
+  {
+    "artist": "Chillinit",
+    "pollyear": 2024,
+    "track": "Boys Light Up",
+    "position": 96,
+    "alltime": false
+  },
+  {
+    "artist": "Genesis Owusu",
+    "pollyear": 2024,
+    "track": "Stay Blessed",
+    "position": 97,
+    "alltime": false
+  },
+  {
+    "artist": "boygenius",
+    "pollyear": 2024,
+    "track": "Cool About It",
+    "position": 98,
+    "alltime": false
+  },
+  {
+    "artist": "Slowly Slowly",
+    "pollyear": 2024,
+    "track": "I Miss You",
+    "position": 99,
+    "alltime": false
+  },
+  {
+    "artist": "Maisie Peters",
+    "pollyear": 2024,
+    "track": "Lost The Breakup",
+    "position": 100,
+    "alltime": false
+  },
+  {
     "alltime": false,
     "artist": "Spiderbait",
     "country": "Australia",
@@ -39004,6 +39704,12 @@ export const tracks = [
 ];
 
 export const albums = [
+  {
+    year: 2024,
+    "alltime": false,
+    "alltimedescription": "",
+    "colorRGB": "46, 65, 79"
+  },
   {
     "year": 2023,
     "alltime": true,
