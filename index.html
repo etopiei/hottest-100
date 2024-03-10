@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="./chartjs/dist/chart.umd.js"></script>
+</head>
+<body>
+    <h2>Triple-J Hottest 100 Data</h2>
+    <h3>Songs in hottest 100 per artist (Top 50 artists)</h3>
+    <canvas id="artistSongs" height="100" role="img" aria-label="Graph of number of songs per artist"></canvas>
+    <h3>Songs in hottest 100 per country (Top 10 countries)</h3>
+    <canvas id="countrySongs" height="100" role="img" aria-label="Graph of number of songs per artist"></canvas>
+    <h3>Artist Stats</h3>
+    <datalist id="artistList"></datalist>
+    <input id="artistInput" placeholder="Enter arist name" autocomplete="on" list="artistList"/>
+    <div id="artistView">
+        Enter artist to load data
+    </div>
+</body>
+</html>
+
+<script type="module">
+    import { artistSortedByTracks, countriesSortedByTracks, getArtists, getArtistData } from './data_processing.js';
+
+    Chart.defaults.plugins.legend.display = false;
+    Chart.defaults.color = 'black'; // Triple-J colour.
+
+    // Artist Songs
+    const artistSongData = artistSortedByTracks().slice(0, 50);
+    const artistSongCtx = document.getElementById('artistSongs');
+    const artistSongChart = new Chart(artistSongCtx, {
+        type: 'bar',
+        data: {
+            datasets: [{
+                data: artistSongData.map(item => item.numberOfSongs)
+            }],
+            labels: artistSongData.map(item => item.name)
+        }
+    });
+
+    // Country Songs
+    const countrySongData = countriesSortedByTracks().slice(0, 10);
+    const countrySongCtx = document.getElementById('countrySongs');
+    const countrySongChart = new Chart(countrySongCtx, {
+        type: 'bar',
+        data: {
+            datasets: [{
+                data: countrySongData.map(item => item.numberOfSongs)
+            }],
+            labels: countrySongData.map(item => item.name)
+        }
+    });
+
+    /* 
+    Artist view
+    Where you can select an artist and see when/where they had songs in hottest 100
+    */
+
+    const renderArtistView = (artistName) => {
+        const artistTracks = getArtistData(artistName);
+        const artistView = document.getElementById('artistView');
+
+        artistView.innerHTML = '';
+
+        const trackTable = document.createElement('table');
+        const trackHeaderA = document.createElement('th');
+        const trackHeaderB = document.createElement('th');
+        const headerRow = document.createElement('tr');
+        trackHeaderA.textContent = "Track Name";
+        trackHeaderB.textContent = "Hottest 100 Year";
+        headerRow.appendChild(trackHeaderA);
+        headerRow.appendChild(trackHeaderB);
+        trackTable.appendChild(headerRow);
+
+        const tableItems = artistTracks.map(trackItem => {
+            const trackNameItem = document.createElement('td');
+            trackNameItem.textContent = trackItem.track;
+            const trackYearItem = document.createElement('td');
+            trackYearItem.textContent = trackItem.pollyear;
+            return [trackNameItem, trackYearItem];
+        });
+        tableItems.forEach(([trackNameItem, trackYearItem]) => {
+            const tableRow = document.createElement('tr');
+            tableRow.appendChild(trackNameItem);
+            tableRow.appendChild(trackYearItem);
+            trackTable.appendChild(tableRow);
+        });
+
+        artistView.appendChild(trackTable);
+    };
+
+    const clearArtistView = () => {
+        const artistView = document.getElementById('artistView');
+        artistView.innerHTML = 'Enter artist to load data';
+    };
+
+    const options = getArtists().map(artistName => {
+        const option = document.createElement('option');
+        option.value = artistName;
+        option.innerHTML = artistName;
+        return option;
+    });
+    const artistList = document.getElementById('artistList');
+    options.forEach(artistOption => {
+        artistList.appendChild(artistOption);
+    });
+    document.getElementById('artistInput').addEventListener('input', (ev) => {
+        console.log(ev);
+        const artistName = ev.target.value;
+        if (getArtists().includes(artistName)) {
+            renderArtistView(artistName);
+        } else {
+            clearArtistView();
+        }
+    });
+
+    /*
+    TODO: "year view"
+    Where you can see a single years hottest-100 list
+    + pie graph of artists in that year
+    + distribution of release years in that year
+    
+    TODO: CSV Export? 
+    */
+</script>
+
+<style>
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html {
+    background-color: rgb(255, 236, 179);
+    color: rgb(239, 65, 53);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+}
+tr {
+    text-align: left;
+}
+table {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+</style>
