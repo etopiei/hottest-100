@@ -11,7 +11,7 @@ Data courtesy of the ABC (https://www.abc.net.au/triplej/hottest100/archive/sear
 To run locally:
 
 ```
-$ curl https://github.com/chartjs/Chart.js/releases/download/v4.4.2/chart.js-4.4.2.tgz
+$ wget https://github.com/chartjs/Chart.js/releases/download/v4.4.2/chart.js-4.4.2.tgz
 $ tar -xzf chart.js-4.4.2.tgz
 $ npm install -g typescript
 $ tsc --module es2022 data_processing.ts
