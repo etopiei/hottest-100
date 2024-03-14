@@ -78,11 +78,14 @@
         const trackTable = document.createElement('table');
         const trackHeaderA = document.createElement('th');
         const trackHeaderB = document.createElement('th');
+        const trackHeaderC = document.createElement('th');
         const headerRow = document.createElement('tr');
         trackHeaderA.textContent = "Track Name";
-        trackHeaderB.textContent = "Hottest 100 Year";
+        trackHeaderB.textContent = "Position";
+        trackHeaderC.textContent = "Hottest 100 Year";
         headerRow.appendChild(trackHeaderA);
         headerRow.appendChild(trackHeaderB);
+        headerRow.appendChild(trackHeaderC);
         trackTable.appendChild(headerRow);
 
         const tableItems = artistTracks.map(trackItem => {
@@ -90,11 +93,14 @@
             trackNameItem.textContent = trackItem.track;
             const trackYearItem = document.createElement('td');
             trackYearItem.textContent = trackItem.pollyear;
-            return [trackNameItem, trackYearItem];
+            const trackPositionItem = document.createElement('td');
+            trackPositionItem.textContent = trackItem.position;
+            return [trackNameItem, trackPositionItem, trackYearItem];
         });
-        tableItems.forEach(([trackNameItem, trackYearItem]) => {
+        tableItems.forEach(([trackNameItem, trackPosition, trackYearItem]) => {
             const tableRow = document.createElement('tr');
             tableRow.appendChild(trackNameItem);
+            tableRow.appendChild(trackPosition)
             tableRow.appendChild(trackYearItem);
             trackTable.appendChild(tableRow);
         });
@@ -194,6 +200,7 @@ tr {
 table {
     margin-top: 16px;
     margin-bottom: 8px;
+    border-spacing: 8px 2px;
 }
 p {
     white-space: pre-line;
