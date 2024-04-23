@@ -3,11 +3,11 @@ import { tracks, albums } from "./original_data.js";
 type TrackItem = {
     "alltime": boolean,
     "artist": string,
-    "country": string,
-    "id": string,
+    "country": string | undefined,
+    "id": string | undefined,
     "pollyear": number,
     "position": number,
-    "releaseyear": string,
+    "releaseyear": string | undefined,
     "track": string
 };
 
@@ -27,10 +27,12 @@ const trackByFeature = (feature: string): KeyedTrackItemObject => {
     const result: KeyedTrackItemObject = {};
 
     trackItems.forEach(track => {
-        if (track[feature].toString() in result) {
-            result[track[feature].toString()].push(track);
-        } else {
-            result[track[feature].toString()] = [track];
+        if (track.hasOwnProperty(feature)) {
+            if (track[feature].toString() in result) {
+                result[track[feature].toString()].push(track);
+            } else {
+                result[track[feature].toString()] = [track];
+            }
         }
     });
 
@@ -78,3 +80,30 @@ export const getArtistData = (artistName) => {
         return Number(trackB.pollyear) - Number(trackA.pollyear);
     });
 };
+
+export const getYears = () => {
+    return albums.filter(album => !album.alltime).map(album => album.year).sort((yearA, yearB) => {
+        return Number(yearB) - Number(yearA);
+    });
+};
+
+export const getTracksForYear = (year) => {
+    return tracks.filter(track => track.pollyear == year).sort((trackA, trackB) => {
+        return trackA.position - trackB.position;
+    }).slice(0, 100);
+};
+
+export const getDataForYear = (year) => {
+    const yearTracks = getTracksForYear(year);
+    const result = {};
+    yearTracks.forEach(track => {
+        if (track.artist in result) {
+            result[track.artist].push(track);
+        } else {
+            result[track.artist] = [track];
+        }
+    });
+    return Object.keys(result).map(artistName => {
+        return { name: artistName, numberOfSongs: result[artistName].length };
+    })
+}

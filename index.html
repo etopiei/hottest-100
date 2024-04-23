@@ -15,14 +15,28 @@
     <div id="artistView">
         Enter artist to load data
     </div>
+    <h3>Yearly Stats</h3>
+    <select id="yearDrop"></select>
+    <div class="halves">
+        <div class="half">
+            <div id="yearView">
+                Select year to load data
+            </div>
+        </div>
+        <div class="half">
+            <canvas id="pie" height="100" role="img" aria-label="Graph of artist per year"></canvas>
+        </div>
+    </div>
 </body>
 </html>
 
 <script type="module">
-    import { artistSortedByTracks, countriesSortedByTracks, getArtists, getArtistData } from './data_processing.js';
+    import { artistSortedByTracks, countriesSortedByTracks, getArtists, getArtistData, getYears, getDataForYear, getTracksForYear } from './data_processing.js';
 
+    // GLOBALS
     Chart.defaults.plugins.legend.display = false;
     Chart.defaults.color = 'black'; // Triple-J colour.
+    let currentPieChart = null;
 
     // Artist Songs
     const artistSongData = artistSortedByTracks().slice(0, 50);
@@ -104,7 +118,6 @@
         artistList.appendChild(artistOption);
     });
     document.getElementById('artistInput').addEventListener('input', (ev) => {
-        console.log(ev);
         const artistName = ev.target.value;
         if (getArtists().includes(artistName)) {
             renderArtistView(artistName);
@@ -113,14 +126,55 @@
         }
     });
 
-    /*
-    TODO: "year view"
-    Where you can see a single years hottest-100 list
-    + pie graph of artists in that year
-    + distribution of release years in that year
-    
-    TODO: CSV Export? 
-    */
+    const renderYearView = (year) => {
+        // Clear it first
+        const yearView = document.getElementById('yearView')
+        yearView.innerHTML = "";
+        if (currentPieChart) {
+            currentPieChart.destroy();
+        }
+
+        // Render list of tracks in order
+        const tracks = getTracksForYear(year);
+        let text = '';
+        let counter = 1;
+        for (let i = 0; i < tracks.length; i+=1) {
+            text += `${counter++}. ${tracks[i].track} (${tracks[i].artist})\n`;
+        }
+        const trackList = document.createElement('p');
+        trackList.textContent = text;
+
+        // Render pie graph of artist
+        const pieCanvas = document.getElementById('pie');
+        const yearData = getDataForYear(year);
+        const pieChart = new Chart(pieCanvas, {
+            type: 'pie',
+            data: {
+                datasets: [{
+                    data: yearData.map(item => item.numberOfSongs)
+                }],
+                labels: yearData.map(item => item.name)
+            },
+            maintainAspectRatio: false,
+        });
+        currentPieChart = pieChart;
+        yearView.appendChild(trackList);
+    };
+
+    // Year view
+    const yearDropdown = document.getElementById('yearDrop');
+    const yearOptions = getYears();
+    yearOptions.forEach(year => {
+        const option = document.createElement('option');
+        option.value = year;
+        option.innerHTML = year;
+        yearDropdown.appendChild(option);
+    });
+    renderYearView(yearOptions[0]);
+    yearDropdown.addEventListener('input', (ev) => {
+        const year = ev.target.value;
+        renderYearView(year);
+    });
 </script>
 
 <style>
@@ -140,5 +194,16 @@ tr {
 table {
     margin-top: 16px;
     margin-bottom: 8px;
+}
+p {
+    white-space: pre-line;
+}
+.halves { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.half { 
+    flex: 1;
 }
 </style>
