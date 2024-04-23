@@ -15,7 +15,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm install -g typescript
-          curl https://github.com/chartjs/Chart.js/releases/download/v4.4.2/chart.js-4.4.2.tgz
+          wget https://github.com/chartjs/Chart.js/releases/download/v4.4.2/chart.js-4.4.2.tgz
           tar -xzf chart.js-4.4.2.tgz
 
 
