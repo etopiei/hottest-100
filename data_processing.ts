@@ -20,8 +20,8 @@ type AlbumItem = {
 
 type KeyedTrackItemObject = { [key: string]: TrackItem[]; };
 
-const trackItems: TrackItem[] = tracks;
-const albumItems: AlbumItem[] = albums;
+const trackItems: TrackItem[] = tracks.filter(track => !track.alltime);
+const albumItems: AlbumItem[] = albums.filter(album => !album.alltime);
 
 const trackByFeature = (feature: string): KeyedTrackItemObject => {
     const result: KeyedTrackItemObject = {};
@@ -49,11 +49,32 @@ const tracksByReleaseYear = () => {
     return trackByFeature('releaseyear');
 };
 
-const artistSortedByTracks = () => {
+export const artistSortedByTracks = () => {
     const artistTracks = tracksForArtist();
-    return Object.keys(artistTracks).sort((a, b) => {
+    const sortedArtistList = Object.keys(artistTracks).sort((a, b) => {
         return artistTracks[b].length - artistTracks[a].length;
     });
-}
+    return sortedArtistList.map(artistName => { 
+        return {name: artistName, numberOfSongs: artistTracks[artistName].length};
+    });
+};
 
-console.log(artistSortedByTracks());
+export const countriesSortedByTracks = () => {
+    const countryTracks = tracksForCountry();
+    const sortedCountryList = Object.keys(countryTracks).sort((a, b) => {
+        return countryTracks[b].length - countryTracks[a].length;
+    });
+    return sortedCountryList.map(countryName => { 
+        return {name: countryName, numberOfSongs: countryTracks[countryName].length};
+    });
+};
+
+export const getArtists = () => {
+    return Object.keys(tracksForArtist());
+};
+
+export const getArtistData = (artistName) => {
+    return tracksForArtist()[artistName].sort((trackA, trackB) => {
+        return Number(trackB.pollyear) - Number(trackA.pollyear);
+    });
+};
