@@ -1,5 +1,705 @@
 export const tracks = [
   {
+    "position": "1",
+    "track": "Good Luck, Babe!",
+    "artist": "Chappell Roan",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "2",
+    "track": "Murder On The Dancefloor",
+    "artist": "Royel Otis",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "3",
+    "track": "BIRDS OF A FEATHER",
+    "artist": "Billie Eilish",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "4",
+    "track": "Messy",
+    "artist": "Lola Young",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "5",
+    "track": "That's So True",
+    "artist": "Gracie Abrams",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "6",
+    "track": "Guess featuring billie eilish",
+    "artist": "Charli xcx & Billie Eilish",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "7",
+    "track": "girl$",
+    "artist": "Dom Dolla",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "8",
+    "track": "Not Like Us",
+    "artist": "Kendrick Lamar",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "9",
+    "track": "Cruel Summer",
+    "artist": "G Flip",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "10",
+    "track": "leavemealone",
+    "artist": "Fred again.. & Baby Keem",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "11",
+    "track": "Diet Pepsi",
+    "artist": "Addison Rae",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "12",
+    "track": "places to be",
+    "artist": "Fred again.., Anderson .Paak, CHIKA",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "13",
+    "track": "BACKBONE",
+    "artist": "Chase & Status x Stormzy",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "14",
+    "track": "CAVE",
+    "artist": "Dom Dolla & Tove Lo",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "15",
+    "track": "Tangerine",
+    "artist": "Ocean Alley",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "16",
+    "track": "Sailor Song",
+    "artist": "Gigi Perez",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "17",
+    "track": "LUNCH",
+    "artist": "Billie Eilish",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "18",
+    "track": "One Bad Day",
+    "artist": "Spacey Jane",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "19",
+    "track": "A Bar Song (Tipsy)",
+    "artist": "Shaboozey",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "20",
+    "track": "Apple",
+    "artist": "Charli xcx",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "21",
+    "track": "i like the way you kiss me",
+    "artist": "Artemas",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "22",
+    "track": "I Love You, I'm Sorry",
+    "artist": "Gracie Abrams",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "23",
+    "track": "GIRLS",
+    "artist": "The Kid LAROI",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "24",
+    "track": "misses",
+    "artist": "Dominic Fike",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "25",
+    "track": "I Had Some Help [Ft. Morgan Wallen]",
+    "artist": "Post Malone",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "26",
+    "track": "The girl, so confusing version with lorde",
+    "artist": "Charli xcx & Lorde",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "27",
+    "track": "WILDFLOWER",
+    "artist": "Billie Eilish",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "28",
+    "track": "365",
+    "artist": "Charli xcx",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "29",
+    "track": "Saturn",
+    "artist": "SZA",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "30",
+    "track": "Sticky [Ft. GloRilla/Sexyy Red/Lil Wayne]",
+    "artist": "Tyler, The Creator",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "31",
+    "track": "Talk talk featuring troye sivan",
+    "artist": "Charli xcx & Troye Sivan",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "32",
+    "track": "Jerkin'",
+    "artist": "Amyl and The Sniffers",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "33",
+    "track": "CHIHIRO",
+    "artist": "Billie Eilish",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "34",
+    "track": "U Should Not Be Doing That",
+    "artist": "Amyl and The Sniffers",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "35",
+    "track": "360",
+    "artist": "Charli XCX",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "36",
+    "track": "Von dutch",
+    "artist": "Charli xcx",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "37",
+    "track": "obsessed",
+    "artist": "Olivia Rodrigo",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "38",
+    "track": "What You've Lost",
+    "artist": "Old Mervs",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "39",
+    "track": "Heading For The Door",
+    "artist": "Royel Otis",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "40",
+    "track": "MILLION DOLLAR BABY",
+    "artist": "Tommy Richman",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "41",
+    "track": "It's ok I'm ok",
+    "artist": "Tate McRae",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "42",
+    "track": "DENIAL IS A RIVER",
+    "artist": "Doechii",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "43",
+    "track": "Like Love",
+    "artist": "Ball Park Music",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "44",
+    "track": "Foam",
+    "artist": "Royel Otis",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "45",
+    "track": "Close To You",
+    "artist": "Gracie Abrams",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "46",
+    "track": "Physical Medicine",
+    "artist": "The Rions",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "47",
+    "track": "2 hands",
+    "artist": "Tate McRae",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "48",
+    "track": "Starburster",
+    "artist": "Fontaines D.C.",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "49",
+    "track": "Risk",
+    "artist": "Gracie Abrams",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "50",
+    "track": "BABY I’M BACK",
+    "artist": "The Kid LAROI",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "51",
+    "track": "Sexy To Someone",
+    "artist": "Clairo",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "52",
+    "track": "Home",
+    "artist": "Good Neighbours",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "53",
+    "track": "Kool-Aid",
+    "artist": "Bring Me The Horizon",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "54",
+    "track": "Juna",
+    "artist": "Clairo",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "55",
+    "track": "L'AMOUR DE MA VIE",
+    "artist": "Billie Eilish",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "56",
+    "track": "luther",
+    "artist": "Kendrick Lamar",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "57",
+    "track": "Homesick",
+    "artist": "Noah Kahan",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "58",
+    "track": "Music Is Better",
+    "artist": "RÜFÜS DU SOL",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "59",
+    "track": "THE GREATEST",
+    "artist": "Billie Eilish",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "60",
+    "track": "Cold Treatment",
+    "artist": "Lime Cordiale",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "61",
+    "track": "Passionfruit",
+    "artist": "The Rions",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "62",
+    "track": "I Only Smoke When I Drink",
+    "artist": "nimino",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "63",
+    "track": "TEXAS HOLD 'EM",
+    "artist": "Beyoncé",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "64",
+    "track": "Training Season",
+    "artist": "Dua Lipa",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "65",
+    "track": "Lithonia",
+    "artist": "Childish Gambino",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "66",
+    "track": "One Of Your Girls",
+    "artist": "Missy Higgins",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "67",
+    "track": "A Little Closer",
+    "artist": "Diffrent",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "68",
+    "track": "Favourite",
+    "artist": "Fontaines D.C.",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "69",
+    "track": "Let's Go Back",
+    "artist": "Jungle",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "70",
+    "track": "She's Gone, Dance On",
+    "artist": "Disclosure",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "71",
+    "track": "us. [Ft. Taylor Swift]",
+    "artist": "Gracie Abrams",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "72",
+    "track": "A Tear in Space (airlock)",
+    "artist": "Glass Animals",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "73",
+    "track": "Creatures In Heaven",
+    "artist": "Glass Animals",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "74",
+    "track": "it boy",
+    "artist": "bbno$",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "75",
+    "track": "Calling After Me",
+    "artist": "Wallows",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "76",
+    "track": "Lucy",
+    "artist": "Pacific Avenue",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "77",
+    "track": "run for the hills",
+    "artist": "Tate McRae",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "78",
+    "track": "The Feminine Urge",
+    "artist": "The Last Dinner Party",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "79",
+    "track": "Black Balloon",
+    "artist": "The Rubens",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "80",
+    "track": "Break My Love",
+    "artist": "RÜFÜS DU SOL",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "81",
+    "track": "Darling, I [Ft. Teezo Touchdown]",
+    "artist": "Tyler, The Creator",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "82",
+    "track": "RATATATA",
+    "artist": "BABYMETAL & Electric Callboy",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "83",
+    "track": "People Watching",
+    "artist": "Sam Fender",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "84",
+    "track": "St. Chroma [Ft. Daniel Caesar]",
+    "artist": "Tyler, The Creator",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "85",
+    "track": "Timeless",
+    "artist": "The Weeknd",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "86",
+    "track": "If Our Love Is Dead",
+    "artist": "Royel Otis",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "87",
+    "track": "Lately",
+    "artist": "RÜFÜS DU SOL",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "88",
+    "track": "Boost Up",
+    "artist": "FISHER x Flowdan",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "89",
+    "track": "Enough of the Sweet Talk",
+    "artist": "Lime Cordiale",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "90",
+    "track": "euphoria",
+    "artist": "Kendrick Lamar",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "91",
+    "track": "BAND4BAND [Ft. Lil Baby]",
+    "artist": "Central Cee",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "92",
+    "track": "BLUE",
+    "artist": "Billie Eilish",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "93",
+    "track": "Club classics",
+    "artist": "Charli xcx",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "94",
+    "track": "Ocean",
+    "artist": "FISHER & AR/CO",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "95",
+    "track": "redrum",
+    "artist": "21 Savage",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "96",
+    "track": "NISSAN ALTIMA",
+    "artist": "Doechii",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "97",
+    "track": "tv off [Ft. lefty gunplay]",
+    "artist": "Kendrick Lamar",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "98",
+    "track": "Top 10 staTues tHat CriEd bloOd",
+    "artist": "Bring Me The Horizon",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "99",
+    "track": "iluv",
+    "artist": "Effy & Mall Grab",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
+    "position": "100",
+    "track": "Type Shit",
+    "artist": "Future, Metro Boomin, Travis Scott & Playboi Carti",
+    "pollyear": 2024,
+    "alltime": false
+  },
+  {
     "artist": "Doja Cat",
     "pollyear": 2023,
     "track": "Paint The Town Red",
