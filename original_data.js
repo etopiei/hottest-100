@@ -1,1403 +1,1703 @@
 export const tracks = [
   {
-    "position": "1",
+    "position": 1,
     "track": "Good Luck, Babe!",
     "artist": "Chappell Roan",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "2",
+    "position": 2,
     "track": "Murder On The Dancefloor",
     "artist": "Royel Otis",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "3",
+    "position": 3,
     "track": "BIRDS OF A FEATHER",
     "artist": "Billie Eilish",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "4",
+    "position": 4,
     "track": "Messy",
     "artist": "Lola Young",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "5",
+    "position": 5,
     "track": "That's So True",
     "artist": "Gracie Abrams",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "6",
+    "position": 6,
     "track": "Guess featuring billie eilish",
     "artist": "Charli xcx & Billie Eilish",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "7",
+    "position": 7,
     "track": "girl$",
     "artist": "Dom Dolla",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "8",
+    "position": 8,
     "track": "Not Like Us",
     "artist": "Kendrick Lamar",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "9",
+    "position": 9,
     "track": "Cruel Summer",
     "artist": "G Flip",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "10",
+    "position": 10,
     "track": "leavemealone",
     "artist": "Fred again.. & Baby Keem",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "11",
+    "position": 11,
     "track": "Diet Pepsi",
     "artist": "Addison Rae",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "12",
+    "position": 12,
     "track": "places to be",
     "artist": "Fred again.., Anderson .Paak, CHIKA",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "13",
+    "position": 13,
     "track": "BACKBONE",
     "artist": "Chase & Status x Stormzy",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "14",
+    "position": 14,
     "track": "CAVE",
     "artist": "Dom Dolla & Tove Lo",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "15",
+    "position": 15,
     "track": "Tangerine",
     "artist": "Ocean Alley",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "16",
+    "position": 16,
     "track": "Sailor Song",
     "artist": "Gigi Perez",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "17",
+    "position": 17,
     "track": "LUNCH",
     "artist": "Billie Eilish",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "18",
+    "position": 18,
     "track": "One Bad Day",
     "artist": "Spacey Jane",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "19",
+    "position": 19,
     "track": "A Bar Song (Tipsy)",
     "artist": "Shaboozey",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "20",
+    "position": 20,
     "track": "Apple",
     "artist": "Charli xcx",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "21",
+    "position": 21,
     "track": "i like the way you kiss me",
     "artist": "Artemas",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "22",
+    "position": 22,
     "track": "I Love You, I'm Sorry",
     "artist": "Gracie Abrams",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "23",
+    "position": 23,
     "track": "GIRLS",
     "artist": "The Kid LAROI",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "24",
+    "position": 24,
     "track": "misses",
     "artist": "Dominic Fike",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "25",
+    "position": 25,
     "track": "I Had Some Help [Ft. Morgan Wallen]",
     "artist": "Post Malone",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "26",
+    "position": 26,
     "track": "The girl, so confusing version with lorde",
     "artist": "Charli xcx & Lorde",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "27",
+    "position": 27,
     "track": "WILDFLOWER",
     "artist": "Billie Eilish",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "28",
+    "position": 28,
     "track": "365",
     "artist": "Charli xcx",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "29",
+    "position": 29,
     "track": "Saturn",
     "artist": "SZA",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "30",
+    "position": 30,
     "track": "Sticky [Ft. GloRilla/Sexyy Red/Lil Wayne]",
     "artist": "Tyler, The Creator",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "31",
+    "position": 31,
     "track": "Talk talk featuring troye sivan",
     "artist": "Charli xcx & Troye Sivan",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "32",
+    "position": 32,
     "track": "Jerkin'",
     "artist": "Amyl and The Sniffers",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "33",
+    "position": 33,
     "track": "CHIHIRO",
     "artist": "Billie Eilish",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "34",
+    "position": 34,
     "track": "U Should Not Be Doing That",
     "artist": "Amyl and The Sniffers",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "35",
+    "position": 35,
     "track": "360",
     "artist": "Charli XCX",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "36",
+    "position": 36,
     "track": "Von dutch",
     "artist": "Charli xcx",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "37",
+    "position": 37,
     "track": "obsessed",
     "artist": "Olivia Rodrigo",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "38",
+    "position": 38,
     "track": "What You've Lost",
     "artist": "Old Mervs",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "39",
+    "position": 39,
     "track": "Heading For The Door",
     "artist": "Royel Otis",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "40",
+    "position": 40,
     "track": "MILLION DOLLAR BABY",
     "artist": "Tommy Richman",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "41",
+    "position": 41,
     "track": "It's ok I'm ok",
     "artist": "Tate McRae",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "42",
+    "position": 42,
     "track": "DENIAL IS A RIVER",
     "artist": "Doechii",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "43",
+    "position": 43,
     "track": "Like Love",
     "artist": "Ball Park Music",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "44",
+    "position": 44,
     "track": "Foam",
     "artist": "Royel Otis",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "45",
+    "position": 45,
     "track": "Close To You",
     "artist": "Gracie Abrams",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "46",
+    "position": 46,
     "track": "Physical Medicine",
     "artist": "The Rions",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "47",
+    "position": 47,
     "track": "2 hands",
     "artist": "Tate McRae",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "48",
+    "position": 48,
     "track": "Starburster",
     "artist": "Fontaines D.C.",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "49",
+    "position": 49,
     "track": "Risk",
     "artist": "Gracie Abrams",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "50",
+    "position": 50,
     "track": "BABY I’M BACK",
     "artist": "The Kid LAROI",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "51",
+    "position": 51,
     "track": "Sexy To Someone",
     "artist": "Clairo",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "52",
+    "position": 52,
     "track": "Home",
     "artist": "Good Neighbours",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "53",
+    "position": 53,
     "track": "Kool-Aid",
     "artist": "Bring Me The Horizon",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "54",
+    "position": 54,
     "track": "Juna",
     "artist": "Clairo",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "55",
+    "position": 55,
     "track": "L'AMOUR DE MA VIE",
     "artist": "Billie Eilish",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "56",
+    "position": 56,
     "track": "luther",
     "artist": "Kendrick Lamar",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "57",
+    "position": 57,
     "track": "Homesick",
     "artist": "Noah Kahan",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "58",
+    "position": 58,
     "track": "Music Is Better",
     "artist": "RÜFÜS DU SOL",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "59",
+    "position": 59,
     "track": "THE GREATEST",
     "artist": "Billie Eilish",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "60",
+    "position": 60,
     "track": "Cold Treatment",
     "artist": "Lime Cordiale",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "61",
+    "position": 61,
     "track": "Passionfruit",
     "artist": "The Rions",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "62",
+    "position": 62,
     "track": "I Only Smoke When I Drink",
     "artist": "nimino",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "63",
+    "position": 63,
     "track": "TEXAS HOLD 'EM",
     "artist": "Beyoncé",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "64",
+    "position": 64,
     "track": "Training Season",
     "artist": "Dua Lipa",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "65",
+    "position": 65,
     "track": "Lithonia",
     "artist": "Childish Gambino",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "66",
+    "position": 66,
     "track": "One Of Your Girls",
     "artist": "Missy Higgins",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "67",
+    "position": 67,
     "track": "A Little Closer",
     "artist": "Diffrent",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "68",
+    "position": 68,
     "track": "Favourite",
     "artist": "Fontaines D.C.",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "69",
+    "position": 69,
     "track": "Let's Go Back",
     "artist": "Jungle",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "70",
+    "position": 70,
     "track": "She's Gone, Dance On",
     "artist": "Disclosure",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "71",
+    "position": 71,
     "track": "us. [Ft. Taylor Swift]",
     "artist": "Gracie Abrams",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "72",
+    "position": 72,
     "track": "A Tear in Space (airlock)",
     "artist": "Glass Animals",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "73",
+    "position": 73,
     "track": "Creatures In Heaven",
     "artist": "Glass Animals",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "74",
+    "position": 74,
     "track": "it boy",
     "artist": "bbno$",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "75",
+    "position": 75,
     "track": "Calling After Me",
     "artist": "Wallows",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "76",
+    "position": 76,
     "track": "Lucy",
     "artist": "Pacific Avenue",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "77",
+    "position": 77,
     "track": "run for the hills",
     "artist": "Tate McRae",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "78",
+    "position": 78,
     "track": "The Feminine Urge",
     "artist": "The Last Dinner Party",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "79",
+    "position": 79,
     "track": "Black Balloon",
     "artist": "The Rubens",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "80",
+    "position": 80,
     "track": "Break My Love",
     "artist": "RÜFÜS DU SOL",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "81",
+    "position": 81,
     "track": "Darling, I [Ft. Teezo Touchdown]",
     "artist": "Tyler, The Creator",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "82",
+    "position": 82,
     "track": "RATATATA",
     "artist": "BABYMETAL & Electric Callboy",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "83",
+    "position": 83,
     "track": "People Watching",
     "artist": "Sam Fender",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "84",
+    "position": 84,
     "track": "St. Chroma [Ft. Daniel Caesar]",
     "artist": "Tyler, The Creator",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "85",
+    "position": 85,
     "track": "Timeless",
     "artist": "The Weeknd",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "86",
+    "position": 86,
     "track": "If Our Love Is Dead",
     "artist": "Royel Otis",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "87",
+    "position": 87,
     "track": "Lately",
     "artist": "RÜFÜS DU SOL",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "88",
+    "position": 88,
     "track": "Boost Up",
     "artist": "FISHER x Flowdan",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "89",
+    "position": 89,
     "track": "Enough of the Sweet Talk",
     "artist": "Lime Cordiale",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "90",
+    "position": 90,
     "track": "euphoria",
     "artist": "Kendrick Lamar",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "91",
+    "position": 91,
     "track": "BAND4BAND [Ft. Lil Baby]",
     "artist": "Central Cee",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "92",
+    "position": 92,
     "track": "BLUE",
     "artist": "Billie Eilish",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "93",
+    "position": 93,
     "track": "Club classics",
     "artist": "Charli xcx",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "94",
+    "position": 94,
     "track": "Ocean",
     "artist": "FISHER & AR/CO",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "95",
+    "position": 95,
     "track": "redrum",
     "artist": "21 Savage",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "96",
+    "position": 96,
     "track": "NISSAN ALTIMA",
     "artist": "Doechii",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "97",
+    "position": 97,
     "track": "tv off [Ft. lefty gunplay]",
     "artist": "Kendrick Lamar",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "98",
+    "position": 98,
     "track": "Top 10 staTues tHat CriEd bloOd",
     "artist": "Bring Me The Horizon",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "99",
+    "position": 99,
     "track": "iluv",
     "artist": "Effy & Mall Grab",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "position": "100",
+    "position": 100,
     "track": "Type Shit",
     "artist": "Future, Metro Boomin, Travis Scott & Playboi Carti",
     "pollyear": 2024,
     "alltime": false
   },
   {
-    "artist": "Doja Cat",
-    "pollyear": 2023,
+    "id": "mpr8bab0NL",
     "track": "Paint The Town Red",
     "position": 1,
-    "alltime": false
-  },
-  {
-    "artist": "G Flip",
-    "pollyear": 2023,
-    "track": "The Worst Person Alive",
-    "position": 2,
-    "alltime": false
-  },
-  {
-    "artist": "Dom Dolla",
-    "pollyear": 2023,
-    "track": "Saving Up",
-    "position": 3,
-    "alltime": false
-  },
-  {
-    "artist": "MK & Dom Dolla",
-    "pollyear": 2023,
-    "track": "Rhyme Dust",
-    "position": 4,
-    "alltime": false
-  },
-  {
-    "artist": "cassö x RAYE x D-Block Europe",
-    "pollyear": 2023,
-    "track": "Prada",
-    "position": 5,
-    "alltime": false
-  },
-  {
-    "artist": "Fred again.. & Obongjayar",
-    "pollyear": 2023,
-    "track": "adore u",
-    "position": 6,
-    "alltime": false
-  },
-  {
-    "artist": "Billie Eilish",
-    "pollyear": 2023,
-    "track": "What Was I Made For?",
-    "position": 7,
-    "alltime": false
-  },
-  {
-    "artist": "Troye Sivan",
-    "pollyear": 2023,
-    "track": "Rush",
-    "position": 8,
-    "alltime": false
-  },
-  {
-    "artist": "Jack Harlow",
-    "pollyear": 2023,
-    "track": "Lovin On Me",
-    "position": 9,
-    "alltime": false
-  },
-  {
-    "artist": "Post Malone",
-    "pollyear": 2023,
-    "track": "Chemical",
-    "position": 10,
-    "alltime": false
-  },
-  {
-    "artist": "Olivia Rodrigo",
-    "pollyear": 2023,
-    "track": "vampire",
-    "position": 11,
-    "alltime": false
-  },
-  {
-    "artist": "Skrillex, Fred Again.. & Flowdan",
-    "pollyear": 2023,
-    "track": "Rumble",
-    "position": 12,
-    "alltime": false
-  },
-  {
-    "artist": "SZA",
-    "pollyear": 2023,
-    "track": "Kill Bill",
-    "position": 13,
-    "alltime": false
-  },
-  {
-    "artist": "FISHER x Kita Alexander",
-    "pollyear": 2023,
-    "track": "Atmosphere",
-    "position": 14,
-    "alltime": false
-  },
-  {
-    "artist": "Peggy Gou",
-    "pollyear": 2023,
-    "track": "(It Goes Like) Nanana",
-    "position": 15,
-    "alltime": false
-  },
-  {
-    "artist": "Dave & Central Cee",
-    "pollyear": 2023,
-    "track": "Sprinter",
-    "position": 16,
-    "alltime": false
-  },
-  {
-    "artist": "Jungle",
-    "pollyear": 2023,
-    "track": "Back On 74",
-    "position": 17,
-    "alltime": false
-  },
-  {
-    "artist": "Dom Dolla & Nelly Furtado",
-    "pollyear": 2023,
-    "track": "Eat Your Man",
-    "position": 18,
-    "alltime": false
-  },
-  {
-    "artist": "Budjerah",
-    "pollyear": 2023,
-    "track": "Therapy",
-    "position": 19,
-    "alltime": false
-  },
-  {
-    "artist": "Spacey Jane",
-    "pollyear": 2023,
-    "track": "Sorry Instead",
-    "position": 20,
-    "alltime": false
-  },
-  {
-    "artist": "Tate McRae",
-    "pollyear": 2023,
-    "track": "greedy",
-    "position": 21,
-    "alltime": false
-  },
-  {
-    "artist": "G Flip",
-    "pollyear": 2023,
-    "track": "Be Your Man",
-    "position": 22,
-    "alltime": false
-  },
-  {
-    "artist": "FISHER x Aatig",
-    "pollyear": 2023,
-    "track": "Take It Off",
-    "position": 23,
-    "alltime": false
-  },
-  {
-    "artist": "G Flip",
-    "pollyear": 2023,
-    "track": "Good Enough",
-    "position": 24,
-    "alltime": false
-  },
-  {
-    "artist": "Drake",
-    "pollyear": 2023,
-    "track": "Rich Baby Daddy [Ft. Sexyy Red/SZA]",
-    "position": 25,
-    "alltime": false
-  },
-  {
-    "artist": "G Flip",
-    "pollyear": 2023,
-    "track": "Rough",
-    "position": 26,
-    "alltime": false
-  },
-  {
-    "artist": "Lime Cordiale",
-    "pollyear": 2023,
-    "track": "Imposter Syndrome",
-    "position": 27,
-    "alltime": false
-  },
-  {
-    "artist": "Dua Lipa",
-    "pollyear": 2023,
-    "track": "Dance The Night",
-    "position": 28,
-    "alltime": false
-  },
-  {
-    "artist": "Lana Del Rey",
-    "pollyear": 2023,
-    "track": "Say Yes To Heaven",
-    "position": 29,
-    "alltime": false
-  },
-  {
-    "artist": "boygenius",
-    "pollyear": 2023,
-    "track": "Not Strong Enough",
-    "position": 30,
-    "alltime": false
-  },
-  {
-    "artist": "Troye Sivan",
-    "pollyear": 2023,
-    "track": "One Of Your Girls",
-    "position": 31,
-    "alltime": false
-  },
-  {
-    "artist": "Olivia Rodrigo",
-    "pollyear": 2023,
-    "track": "bad idea right?",
-    "position": 32,
-    "alltime": false
-  },
-  {
-    "artist": "Troye Sivan",
-    "pollyear": 2023,
-    "track": "Got Me Started",
-    "position": 33,
-    "alltime": false
-  },
-  {
-    "artist": "Olivia Rodrigo",
-    "pollyear": 2023,
-    "track": "get him back!",
-    "position": 34,
-    "alltime": false
-  },
-  {
-    "artist": "Fred again.. x Skrillex x Four Tet",
-    "pollyear": 2023,
-    "track": "Baby again..",
-    "position": 35,
-    "alltime": false
-  },
-  {
-    "artist": "PinkPantheress & Ice Spice",
-    "pollyear": 2023,
-    "track": "Boy's a liar Pt.2",
-    "position": 36,
-    "alltime": false
-  },
-  {
-    "artist": "Hilltop Hoods",
-    "pollyear": 2023,
-    "track": "Laced Up",
-    "position": 37,
-    "alltime": false
-  },
-  {
-    "artist": "The Rions",
-    "pollyear": 2023,
-    "track": "Minivan",
-    "position": 38,
-    "alltime": false
-  },
-  {
-    "artist": "BENEE",
-    "pollyear": 2023,
-    "track": "Green Honda",
-    "position": 39,
-    "alltime": false
-  },
-  {
-    "artist": "The Rions",
-    "pollyear": 2023,
-    "track": "Scary Movies",
-    "position": 40,
-    "alltime": false
-  },
-  {
-    "artist": "Dua Lipa",
-    "pollyear": 2023,
-    "track": "Houdini",
-    "position": 41,
-    "alltime": false
-  },
-  {
-    "artist": "Lime Cordiale",
-    "pollyear": 2023,
-    "track": "Pedestal",
-    "position": 42,
-    "alltime": false
-  },
-  {
-    "artist": "The Weeknd, Playboy Carti & Madonna",
-    "pollyear": 2023,
-    "track": "Popular",
-    "position": 43,
-    "alltime": false
-  },
-  {
-    "artist": "Mitski",
-    "pollyear": 2023,
-    "track": "My Love Mine All Mine",
-    "position": 44,
-    "alltime": false
-  },
-  {
-    "artist": "Hockey Dad",
-    "pollyear": 2023,
-    "track": "Still Have Room",
-    "position": 45,
-    "alltime": false
-  },
-  {
-    "artist": "Kenya Grace",
-    "pollyear": 2023,
-    "track": "Strangers",
-    "position": 46,
-    "alltime": false
-  },
-  {
-    "artist": "Old Mervs",
-    "pollyear": 2023,
-    "track": "Sweetheart",
-    "position": 47,
-    "alltime": false
-  },
-  {
-    "artist": "Kylie Minogue",
-    "pollyear": 2023,
-    "track": "Padam Padam",
-    "position": 48,
-    "alltime": false
-  },
-  {
     "artist": "Doja Cat",
     "pollyear": 2023,
-    "track": "Agora Hills",
-    "position": 49,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
   },
   {
+    "id": "mpnpzbzgDd",
+    "track": "The Worst Person Alive",
+    "position": 2,
     "artist": "G Flip",
     "pollyear": 2023,
-    "track": "Australia",
-    "position": 50,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
   },
   {
-    "artist": "Fred again.. & Jozzy",
+    "id": "mpnjV0VwNn",
+    "track": "Saving Up",
+    "position": 3,
+    "artist": "Dom Dolla",
     "pollyear": 2023,
-    "track": "ten",
-    "position": 51,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
   },
   {
-    "artist": "Teen Jesus and the Jean Teasers",
+    "id": "mpLM5v5o0L",
+    "track": "Rhyme Dust",
+    "position": 4,
+    "artist": "MK & Dom Dolla",
     "pollyear": 2023,
-    "track": "I Used To Be Fun",
-    "position": 52,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA/Australia"
   },
   {
-    "artist": "King Stingray",
+    "id": "mpLGozo0PL",
+    "track": "Prada",
+    "position": 5,
+    "artist": "cassö x RAYE x D-Block Europe",
     "pollyear": 2023,
-    "track": "Lookin' Out",
-    "position": 53,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK"
   },
   {
-    "artist": "blink-182",
+    "id": "mpdZDMDA8n",
+    "track": "adore u",
+    "position": 6,
+    "artist": "Fred again.. & Obongjayar",
     "pollyear": 2023,
-    "track": "MORE THAN YOU KNOW",
-    "position": 54,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK/Nigeria"
   },
   {
-    "artist": "Thelma Plum",
+    "id": "mpr1eMe0qr",
+    "track": "What Was I Made For?",
+    "position": 7,
+    "artist": "Billie Eilish",
     "pollyear": 2023,
-    "track": "We Don't Talk About It",
-    "position": 55,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
   },
   {
+    "id": "mpLlGbGJWn",
+    "track": "Rush",
+    "position": 8,
+    "artist": "Troye Sivan",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia/South Africa"
+  },
+  {
+    "id": "mpro0b0AVn",
+    "track": "Lovin On Me",
+    "position": 9,
+    "artist": "Jack Harlow",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
+  },
+  {
+    "id": "mpryoPoqaL",
+    "track": "Chemical",
+    "position": 10,
+    "artist": "Post Malone",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
+  },
+  {
+    "id": "mpr8babkaL",
+    "track": "vampire",
+    "position": 11,
     "artist": "Olivia Rodrigo",
     "pollyear": 2023,
-    "track": "all-american bitch",
-    "position": 56,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
   },
   {
-    "artist": "Bring Me The Horizon",
+    "id": "mpLXMOM81d",
+    "track": "Rumble",
+    "position": 12,
+    "artist": "Skrillex, Fred Again.. & Flowdan",
     "pollyear": 2023,
-    "track": "DArkSide",
-    "position": 57,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA/UK"
   },
   {
-    "artist": "Bring Me The Horizon",
-    "pollyear": 2023,
-    "track": "LosT",
-    "position": 58,
-    "alltime": false
-  },
-  {
-    "artist": "Pacific Avenue",
-    "pollyear": 2023,
-    "track": "Spin Me Like Your Records",
-    "position": 59,
-    "alltime": false
-  },
-  {
-    "artist": "Lana Del Rey",
-    "pollyear": 2023,
-    "track": "A&W",
-    "position": 60,
-    "alltime": false
-  },
-  {
-    "artist": "The Kid LAROI",
-    "pollyear": 2023,
-    "track": "LOVE AGAIN",
-    "position": 61,
-    "alltime": false
-  },
-  {
-    "artist": "Tyler, The Creator",
-    "pollyear": 2023,
-    "track": "DOGTOOTH",
-    "position": 62,
-    "alltime": false
-  },
-  {
-    "artist": "Peach PRC",
-    "pollyear": 2023,
-    "track": "Perfect For You",
-    "position": 63,
-    "alltime": false
-  },
-  {
-    "artist": "Peking Duk",
-    "pollyear": 2023,
-    "track": "Fall At Your Feet [Ft. Julia Stone]",
-    "position": 64,
-    "alltime": false
-  },
-  {
-    "artist": "G Flip",
-    "pollyear": 2023,
-    "track": "Real Life",
-    "position": 65,
-    "alltime": false
-  },
-  {
-    "artist": "Nicki Minaj & Ice Spice",
-    "pollyear": 2023,
-    "track": "Barbie World (with Aqua)",
-    "position": 66,
-    "alltime": false
-  },
-  {
-    "artist": "Angie McMahon",
-    "pollyear": 2023,
-    "track": "Letting Go",
-    "position": 67,
-    "alltime": false
-  },
-  {
-    "artist": "Peach PRC",
-    "pollyear": 2023,
-    "track": "F U Goodbye",
-    "position": 68,
-    "alltime": false
-  },
-  {
-    "artist": "Genesis Owusu",
-    "pollyear": 2023,
-    "track": "Leaving The Light",
-    "position": 69,
-    "alltime": false
-  },
-  {
+    "id": "mpLlGbGyWn",
+    "track": "Kill Bill",
+    "position": 13,
     "artist": "SZA",
     "pollyear": 2023,
-    "track": "Snooze",
-    "position": 70,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
   },
   {
-    "artist": "The Rions",
+    "id": "mprxYlY09n",
+    "track": "Atmosphere",
+    "position": 14,
+    "artist": "FISHER x Kita Alexander",
     "pollyear": 2023,
-    "track": "Take What You Want",
-    "position": 71,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
   },
   {
-    "artist": "DICE",
+    "id": "mpr2X6XgWL",
+    "track": "(It Goes Like) Nanana",
+    "position": 15,
+    "artist": "Peggy Gou",
     "pollyear": 2023,
-    "track": "Stockholm",
-    "position": 72,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "South Korea"
   },
   {
-    "artist": "Tyla",
+    "id": "mpdm5b5yad",
+    "track": "Sprinter",
+    "position": 16,
+    "artist": "Dave & Central Cee",
     "pollyear": 2023,
-    "track": "Water",
-    "position": 73,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK"
   },
   {
-    "artist": "Teenage Dads",
+    "id": "mpnvRzRA9n",
+    "track": "Back On 74",
+    "position": 17,
+    "artist": "Jungle",
     "pollyear": 2023,
-    "track": "Speedracer",
-    "position": 74,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK"
   },
   {
-    "artist": "SZA",
+    "id": "mpLXMOMwed",
+    "track": "Eat Your Man",
+    "position": 18,
+    "artist": "Dom Dolla & Nelly Furtado",
     "pollyear": 2023,
-    "track": "Nobody Gets Me",
-    "position": 75,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia/Canada"
   },
   {
-    "artist": "Royel Otis",
+    "id": "mpnjV0VBWn",
+    "track": "Therapy",
+    "position": 19,
+    "artist": "Budjerah",
     "pollyear": 2023,
-    "track": "Sofa King",
-    "position": 76,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
   },
   {
-    "artist": "Ruel",
+    "id": "mpLM5v5ajL",
+    "track": "Sorry Instead",
+    "position": 20,
+    "artist": "Spacey Jane",
     "pollyear": 2023,
-    "track": "I DON'T WANNA BE LIKE YOU",
-    "position": 77,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
   },
   {
-    "artist": "The Kid LAROI",
-    "pollyear": 2023,
-    "track": "BLEED",
-    "position": 78,
-    "alltime": false
-  },
-  {
-    "artist": "Teenage Dads",
-    "pollyear": 2023,
-    "track": "Video Killed The Radio Star",
-    "position": 79,
-    "alltime": false
-  },
-  {
-    "artist": "G Flip",
-    "pollyear": 2023,
-    "track": "7 Days",
-    "position": 80,
-    "alltime": false
-  },
-  {
-    "artist": "Peach PRC",
-    "pollyear": 2023,
-    "track": "Like A Girl Does",
-    "position": 81,
-    "alltime": false
-  },
-  {
+    "id": "mpLGozoa9L",
+    "track": "greedy",
+    "position": 21,
     "artist": "Tate McRae",
     "pollyear": 2023,
-    "track": "exes",
-    "position": 82,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Canada"
   },
   {
-    "artist": "Sleep Token",
+    "id": "mprKN0N0Zd",
+    "track": "Be Your Man",
+    "position": 22,
+    "artist": "G Flip",
     "pollyear": 2023,
-    "track": "The Summoning",
-    "position": 83,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
   },
   {
-    "artist": "The Jungle Giants",
+    "id": "mpnQ4141Br",
+    "track": "Take It Off",
+    "position": 23,
+    "artist": "FISHER x Aatig",
     "pollyear": 2023,
-    "track": "Trippin Up",
-    "position": 84,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia/Latvia"
   },
   {
-    "artist": "beabadoobee",
+    "id": "mprbYlYlWd",
+    "track": "Good Enough",
+    "position": 24,
+    "artist": "G Flip",
     "pollyear": 2023,
-    "track": "Glue Song",
-    "position": 85,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
   },
   {
-    "artist": "Labrinth",
+    "id": "mpdm5b5qVd",
+    "track": "Rich Baby Daddy [Ft. Sexyy Red/SZA]",
+    "position": 25,
+    "artist": "Drake",
     "pollyear": 2023,
-    "track": "Never Felt So Alone",
-    "position": 86,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Canada/USA"
   },
   {
-    "artist": "Skrillex & Boys Noize",
+    "id": "mpr9x5xKRd",
+    "track": "Rough",
+    "position": 26,
+    "artist": "G Flip",
     "pollyear": 2023,
-    "track": "Fine Day Anthem",
-    "position": 87,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
   },
   {
-    "artist": "Teenage Dads",
+    "id": "mpn3J2Jv8r",
+    "track": "Imposter Syndrome",
+    "position": 27,
+    "artist": "Lime Cordiale",
     "pollyear": 2023,
-    "track": "Midnight Driving",
-    "position": 88,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
   },
   {
-    "artist": "The Last Dinner Party",
+    "id": "mpnOyZy1jd",
+    "track": "Dance The Night",
+    "position": 28,
+    "artist": "Dua Lipa",
     "pollyear": 2023,
-    "track": "Nothing Matters",
-    "position": 89,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK"
   },
   {
-    "artist": "Polaris",
-    "pollyear": 2023,
-    "track": "Nightmare",
-    "position": 90,
-    "alltime": false
-  },
-  {
+    "id": "mpdwoOovZd",
+    "track": "Say Yes To Heaven",
+    "position": 29,
     "artist": "Lana Del Rey",
     "pollyear": 2023,
-    "track": "Did you know that there's a tunnel under Ocean Blvd",
-    "position": 91,
-    "alltime": false
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
   },
   {
-    "artist": "Pacific Avenue",
-    "pollyear": 2023,
-    "track": "Strawberry Daydream",
-    "position": 92,
-    "alltime": false
-  },
-  {
-    "artist": "The Terrys",
-    "pollyear": 2023,
-    "track": "No Bad Days",
-    "position": 93,
-    "alltime": false
-  },
-  {
-    "artist": "MAY-A",
-    "pollyear": 2023,
-    "track": "Sweat You Out My System",
-    "position": 94,
-    "alltime": false
-  },
-  {
-    "artist": "Nothing But Thieves",
-    "pollyear": 2023,
-    "track": "Welcome to the DCC",
-    "position": 95,
-    "alltime": false
-  },
-  {
-    "artist": "Chillinit",
-    "pollyear": 2023,
-    "track": "Boys Light Up",
-    "position": 96,
-    "alltime": false
-  },
-  {
-    "artist": "Genesis Owusu",
-    "pollyear": 2023,
-    "track": "Stay Blessed",
-    "position": 97,
-    "alltime": false
-  },
-  {
+    "id": "mpdVaMaZ9L",
+    "track": "Not Strong Enough",
+    "position": 30,
     "artist": "boygenius",
     "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
+  },
+  {
+    "id": "mpneVlVWGL",
+    "track": "One Of Your Girls",
+    "position": 31,
+    "artist": "Troye Sivan",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia/South Africa"
+  },
+  {
+    "id": "mprayly9mr",
+    "track": "bad idea right?",
+    "position": 32,
+    "artist": "Olivia Rodrigo",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
+  },
+  {
+    "id": "mpL4e5ebod",
+    "track": "Got Me Started",
+    "position": 33,
+    "artist": "Troye Sivan",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia/South Africa"
+  },
+  {
+    "id": "mprP3X3Q9d",
+    "track": "get him back!",
+    "position": 34,
+    "artist": "Olivia Rodrigo",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
+  },
+  {
+    "id": "mpnYvWvZYL",
+    "track": "Baby again..",
+    "position": 35,
+    "artist": "Fred again.. x Skrillex x Four Tet",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK/USA"
+  },
+  {
+    "id": "mprDpmpoZr",
+    "track": "Boy's a liar Pt.2",
+    "position": 36,
+    "artist": "PinkPantheress & Ice Spice",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK/USA"
+  },
+  {
+    "id": "mprDpmpokr",
+    "track": "Laced Up",
+    "position": 37,
+    "artist": "Hilltop Hoods",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpLqg2gMpr",
+    "track": "Minivan",
+    "position": 38,
+    "artist": "The Rions",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpLk9b9PBr",
+    "track": "Green Honda",
+    "position": 39,
+    "artist": "BENEE",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "New Zealand"
+  },
+  {
+    "id": "mprJpmpoVL",
+    "track": "Scary Movies",
+    "position": 40,
+    "artist": "The Rions",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mprDpmpkkr",
+    "track": "Houdini",
+    "position": 41,
+    "artist": "Dua Lipa",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK"
+  },
+  {
+    "id": "mpnOyZyWbd",
+    "track": "Pedestal",
+    "position": 42,
+    "artist": "Lime Cordiale",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpLk9b9lBr",
+    "track": "Popular",
+    "position": 43,
+    "artist": "The Weeknd, Playboy Carti & Madonna",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Canada/USA"
+  },
+  {
+    "id": "mpd6E5E3pL",
+    "track": "My Love Mine All Mine",
+    "position": 44,
+    "artist": "Mitski",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA/Japan"
+  },
+  {
+    "id": "mpL5qPqExL",
+    "track": "Still Have Room",
+    "position": 45,
+    "artist": "Hockey Dad",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpLXMOMv3d",
+    "track": "Strangers",
+    "position": 46,
+    "artist": "Kenya Grace",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK/South Africa"
+  },
+  {
+    "id": "mpneVlVAwL",
+    "track": "Sweetheart",
+    "position": 47,
+    "artist": "Old Mervs",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpd7mAmpJn",
+    "track": "Padam Padam",
+    "position": 48,
+    "artist": "Kylie Minogue",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpL4e5eoQd",
+    "track": "Agora Hills",
+    "position": 49,
+    "artist": "Doja Cat",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
+  },
+  {
+    "id": "mprbYlYQNd",
+    "track": "Australia",
+    "position": 50,
+    "artist": "G Flip",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mprRaeaaOd",
+    "track": "ten",
+    "position": 51,
+    "artist": "Fred again.. & Jozzy",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK/USA"
+  },
+  {
+    "id": "mpnN4D44Gd",
+    "track": "I Used To Be Fun",
+    "position": 52,
+    "artist": "Teen Jesus and the Jean Teasers",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpLApKppxn",
+    "track": "Lookin' Out",
+    "position": 53,
+    "artist": "King Stingray",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mprJpmppPL",
+    "track": "MORE THAN YOU KNOW",
+    "position": 54,
+    "artist": "blink-182",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
+  },
+  {
+    "id": "mpr9x5xx8d",
+    "track": "We Don't Talk About It",
+    "position": 55,
+    "artist": "Thelma Plum",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpnvRzRoXn",
+    "track": "all-american bitch",
+    "position": 56,
+    "artist": "Olivia Rodrigo",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
+  },
+  {
+    "id": "mpnvRzRoyn",
+    "track": "DArkSide",
+    "position": 57,
+    "artist": "Bring Me The Horizon",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK"
+  },
+  {
+    "id": "mpLEWbWQwr",
+    "track": "LosT",
+    "position": 58,
+    "artist": "Bring Me The Horizon",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK"
+  },
+  {
+    "id": "mpLApKpVbn",
+    "track": "Spin Me Like Your Records",
+    "position": 59,
+    "artist": "Pacific Avenue",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpdm5b5z8d",
+    "track": "A&W",
+    "position": 60,
+    "artist": "Lana Del Rey",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
+  },
+  {
+    "id": "mpn3J2JYQr",
+    "track": "LOVE AGAIN",
+    "position": 61,
+    "artist": "The Kid LAROI",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpLqg2gzAr",
+    "track": "DOGTOOTH",
+    "position": 62,
+    "artist": "Tyler, The Creator",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
+  },
+  {
+    "id": "mpLgAlAD1r",
+    "track": "Perfect For You",
+    "position": 63,
+    "artist": "Peach PRC",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpLGozp8DL",
+    "track": "Fall At Your Feet [Ft. Julia Stone]",
+    "position": 64,
+    "artist": "Peking Duk",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpL5qPpyVL",
+    "track": "Real Life",
+    "position": 65,
+    "artist": "G Flip",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpLXMOP17d",
+    "track": "Barbie World (with Aqua)",
+    "position": 66,
+    "artist": "Nicki Minaj & Ice Spice",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Trinidad and Tobago/USA/Denmark"
+  },
+  {
+    "id": "mpLXMOP1gd",
+    "track": "Letting Go",
+    "position": 67,
+    "artist": "Angie McMahon",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpLlGbYDln",
+    "track": "F U Goodbye",
+    "position": 68,
+    "artist": "Peach PRC",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpnjV03a1n",
+    "track": "Leaving The Light",
+    "position": 69,
+    "artist": "Genesis Owusu",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia/Ghana"
+  },
+  {
+    "id": "mprz4oqJzL",
+    "track": "Snooze",
+    "position": 70,
+    "artist": "SZA",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
+  },
+  {
+    "id": "mpLGozpKYL",
+    "track": "Take What You Want",
+    "position": 71,
+    "artist": "The Rions",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mprKN0G5xd",
+    "track": "Stockholm",
+    "position": 72,
+    "artist": "DICE",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpLlGbY3ln",
+    "track": "Water",
+    "position": 73,
+    "artist": "Tyla",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "South Africa"
+  },
+  {
+    "id": "mpnjV0371n",
+    "track": "Speedracer",
+    "position": 74,
+    "artist": "Teenage Dads",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpdwoOyZ5d",
+    "track": "Nobody Gets Me",
+    "position": 75,
+    "artist": "SZA",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
+  },
+  {
+    "id": "mprJpmblwL",
+    "track": "Sofa King",
+    "position": 76,
+    "artist": "Royel Otis",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpneVl8wDL",
+    "track": "I DON'T WANNA BE LIKE YOU",
+    "position": 77,
+    "artist": "Ruel",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK/Australia"
+  },
+  {
+    "id": "mpnYvWj8WL",
+    "track": "BLEED",
+    "position": 78,
+    "artist": "The Kid LAROI",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mprDpmPxPr",
+    "track": "Video Killed The Radio Star",
+    "position": 79,
+    "artist": "Teenage Dads",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpL4e5lMvd",
+    "track": "7 Days",
+    "position": 80,
+    "artist": "G Flip",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpdwoOyYVd",
+    "track": "Like A Girl Does",
+    "position": 81,
+    "artist": "Peach PRC",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpLBpRyNvr",
+    "track": "exes",
+    "position": 82,
+    "artist": "Tate McRae",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Canada"
+  },
+  {
+    "id": "mpnvRzo94n",
+    "track": "The Summoning",
+    "position": 83,
+    "artist": "Sleep Token",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK"
+  },
+  {
+    "id": "mpnOyZQb6d",
+    "track": "Trippin Up",
+    "position": 84,
+    "artist": "The Jungle Giants",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mprbYl5XBd",
+    "track": "Glue Song",
+    "position": 85,
+    "artist": "beabadoobee",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Philippines/UK"
+  },
+  {
+    "id": "mprJpmb6KL",
+    "track": "Never Felt So Alone",
+    "position": 86,
+    "artist": "Labrinth",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK"
+  },
+  {
+    "id": "mprKN0G29d",
+    "track": "Fine Day Anthem",
+    "position": 87,
+    "artist": "Skrillex & Boys Noize",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK/Germany"
+  },
+  {
+    "id": "mpnYvWjy8L",
+    "track": "Midnight Driving",
+    "position": 88,
+    "artist": "Teenage Dads",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpnpzb6p1d",
+    "track": "Nothing Matters",
+    "position": 89,
+    "artist": "The Last Dinner Party",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK"
+  },
+  {
+    "id": "mpLqg24pOr",
+    "track": "Nightmare",
+    "position": 90,
+    "artist": "Polaris",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpd6E5xbPL",
+    "track": "Did you know that there's a tunnel under Ocean Blvd",
+    "position": 91,
+    "artist": "Lana Del Rey",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
+  },
+  {
+    "id": "mpr8bagwgL",
+    "track": "Strawberry Daydream",
+    "position": 92,
+    "artist": "Pacific Avenue",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpLXMOPGzd",
+    "track": "No Bad Days",
+    "position": 93,
+    "artist": "The Terrys",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpd7mA87Dn",
+    "track": "Sweat You Out My System",
+    "position": 94,
+    "artist": "MAY-A",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mpnjV03qjn",
+    "track": "Welcome to the DCC",
+    "position": 95,
+    "artist": "Nothing But Thieves",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK"
+  },
+  {
+    "id": "mpLk9bVOJr",
+    "track": "Boys Light Up",
+    "position": 96,
+    "artist": "Chillinit",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
+  },
+  {
+    "id": "mprJpmbZ7L",
+    "track": "Stay Blessed",
+    "position": 97,
+    "artist": "Genesis Owusu",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia/Ghana"
+  },
+  {
+    "id": "mpr9x5PVzd",
     "track": "Cool About It",
     "position": 98,
-    "alltime": false
+    "artist": "boygenius",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "USA"
   },
   {
-    "artist": "Slowly Slowly",
-    "pollyear": 2023,
+    "id": "mpdm5b0oAd",
     "track": "I Miss You",
     "position": 99,
-    "alltime": false
+    "artist": "Slowly Slowly",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "Australia"
   },
   {
-    "artist": "Maisie Peters",
-    "pollyear": 2023,
+    "id": "mpneVl8MPL",
     "track": "Lost The Breakup",
     "position": 100,
-    "alltime": false
+    "artist": "Maisie Peters",
+    "pollyear": 2023,
+    "releaseyear": "2023",
+    "alltime": false,
+    "country": "UK"
   },
   {
     "alltime": false,
@@ -40404,6 +40704,12 @@ export const tracks = [
 ];
 
 export const albums = [
+  {
+    year: 2024,
+    "alltime": false,
+    "alltimedescription": "",
+    "colorRGB": "46, 65, 79"
+  },
   {
     year: 2023,
     "alltime": false,
